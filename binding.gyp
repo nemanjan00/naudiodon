@@ -22,7 +22,8 @@
               'OTHER_CPLUSPLUSFLAGS': [
                 '-std=c++11',
                 '-stdlib=libc++',
-                '-fexceptions'
+                '-fexceptions',
+                '-w'
               ]
             },
             "link_settings": {
