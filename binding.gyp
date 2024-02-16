@@ -82,7 +82,7 @@
                   "-fexceptions"
                 ],
                 "link_settings": {
-                  "libraries": [cpu_arch
+                  "libraries": [
                     "<@(module_root_dir)/build/Release/libportaudio.so.2"
                   ],
                   "ldflags": [
