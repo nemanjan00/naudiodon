@@ -72,7 +72,7 @@
         [
           'OS=="linux"', {
             "conditions": [
-              ['cpu_arch=="arm64"', {
+              ['target_arch=="arm"', {
                 "cflags_cc!": [
                   "-fno-rtti",
                   "-fno-exceptions"
