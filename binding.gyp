@@ -72,7 +72,7 @@
         [
           'OS=="linux"', {
             "conditions": [
-              ['target_arch=="arm"', {
+              ['target_arch=="arm64"', {
                 "cflags_cc!": [
                   "-fno-rtti",
                   "-fno-exceptions"
@@ -121,7 +121,7 @@
                   {
                     "destination": "build/Release/",
                     "files": [
-                      "<@(module_root_dir)/portaudio/bin_arm64/libportaudio.so.2"
+                      "<@(module_root_dir)/portaudio/bin/libportaudio.so.2"
                     ]
                   }
                 ]
