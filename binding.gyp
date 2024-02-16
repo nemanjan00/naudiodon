@@ -121,7 +121,7 @@
                   {
                     "destination": "build/Release/",
                     "files": [
-                      "<@(module_root_dir)/portaudio/bin/libportaudio.so.2"
+                      "<@(module_root_dir)/portaudio/bin_arm64/libportaudio.so.2"
                     ]
                   }
                 ]
