@@ -83,7 +83,7 @@
                 ],
                 "link_settings": {
                   "libraries": [cpu_arch
-                    "<@(module_root_dir)/build/Release/libportaudio.so.2" 
+                    "<@(module_root_dir)/build/Release/libportaudio.so.2"
                   ],
                   "ldflags": [
                     "-L<@(module_root_dir)/build/Release",
